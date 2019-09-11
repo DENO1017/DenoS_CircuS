@@ -1,0 +1,44 @@
+body {
+    background-color: snow;
+}
+.logo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+.inputArea div{
+    height: 50px;
+}
+.inputArea input{
+    border-color: #7382ff;
+    font-size: 20px;
+}
+#checkboxInput{
+    padding-left: 50px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#SignIn{
+    background-color: #7382ff;
+    border-color: transparent;
+    font-size: 17px;
+    color: snow;
+}
+#SignIn:hover{
+    background-color: transparent;
+    border-color: #7382ff;
+    font-size: 17px;
+    color: #7382ff;
+}
+#SignUp{
+    background-color: transparent;
+    border-color: #7382ff;
+    font-size: 17px;
+    color: #404093;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: snow;
+}
+.logo{
+    padding-top: 70px;
+    width: 300px;
+    height: 300px;
+}
+.login{
+    height: 400px;
+}
+.inputArea div{
+    height: 70px;
+}
+.inputArea input{
+    width: 80%;
+    height: 30px;
+    border-color: #7382ff;
+    font-size: 20px;
+}
+.QrLogin{
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20%;
+    border-right:#7382ff solid;
+}
+.PWLogin{
+    width: 30%;
+    height: 200px;
+    float: right;
+    margin-right: 15%;
+    margin-top: -10px;
+}
+
+button{
+    width: 37%;
+    height: 40px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#checkboxInput{
+    padding-right: 70%;
+    padding-bottom: 20px;
+}
+#SignIn{
+    background-color: #7382ff;
+    border-color: transparent;
+    font-size: 17px;
+    color: snow;
+}
+#SignIn:hover{
+    background-color: #7474df;
+}
+#SignUp{
+    background-color: snow;
+    border-color: #7382ff;
+    font-size: 17px;
+    color: #404093;
+}
+#SignUp:hover{
+    background-color: #faf5f5;
+}
+footer{
+    background-color: #f1edf2;
+    height: 200px;
+}
+footer p{
+    color: #848085;
+    font-size: 20px;
+}

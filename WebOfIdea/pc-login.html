@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DenoS CircuS</title>
+    <script src="login.js"></script>
+</head>
+<body>
+<div align="center">
+    <img class="logo" src="image/logo.png" alt="这里应该有一张logo">
+</div>
+<div class="login">
+    <div class="QrLogin"></div>
+    <div class="PWLogin">
+        <div class="inputArea">
+            <div align="center">
+                <label>
+                    <input type="text" id="user" placeholder="用户名/手机号/邮箱">
+                </label>
+            </div>
+            <div align="center">
+                <label>
+                    <input type="password" id="pass" placeholder="密码">
+                </label>
+            </div>
+        </div>
+
+        <div align="center" id="checkboxInput">
+            <label>
+                <input type="checkbox" id="isRemember">记住我
+            </label>
+        </div>
+        <div align="center">
+            <button id="SignIn" onclick="loginBtn_click()">登录</button>
+            <button id="SignUp">注册</button>
+        </div>
+    </div>
+</div>
+<div>
+    <footer>
+        <p>作者：  Deno</p>
+        <p>仅作展示使用</p>
+        <p>包含功能：登录/注册/记住密码/移动端适配</p>
+        <p>待完成功能：QR码登录</p>
+    </footer></div>
+</body>
+</html>
